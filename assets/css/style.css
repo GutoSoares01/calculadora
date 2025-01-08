@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', serif; /* Fonte utilizada */
+}
+body {
+    background-color: #B6AFAF; /* Fundo da página */
+}
+header {
+    text-align: center;
+    background-color: #696969;
+    padding: 15px;
+    box-shadow: 5px 5px 5px;
+}
+header h1 {
+    margin-top: 5px;
+}
+/* Configurações principais */
+main {
+    height: 500px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa-calculadora {
+    background-color: #696969;
+    border: 2px solid black;
+    border-radius: 15px;
+    max-width: 260px;
+    max-height: max-content;
+    padding: 15px;
+    box-shadow: 5px 5px 5px;
+}
+#txtNum {
+    /* Estilo do visor */
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 50px;
+    background-color: #7a895f;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 2px;
+}
+/* Botões */
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.botoes button {
+    margin-top: 15px;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #B6AFAF;
+    font-weight: 700;
+    font-size: x-large;
+    cursor: pointer;
+}
+/* Botão de destaque (igual) */
+.botoes .botao-igual {
+    background-color: #3e8e41;
+}
+.botao-igual:hover {
+    background-color: #2c6e31;
+}
+button:hover {
+    background-color: #948d8d;
+}
+footer h5{
+    text-align: center;
+}
+
+
